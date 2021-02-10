@@ -6,6 +6,8 @@ header('location: index.php?error=1');
 }
 
 // value
-$index = $_GET['idx'];
+$idx = $_GET['idx'];
 
-echo $index;
+$classe = $_GET['tab'];
+
+echo $classe[0];

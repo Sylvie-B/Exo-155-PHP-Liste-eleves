@@ -16,6 +16,8 @@ $classe = [
 ];
 
 for($i = 0 ; $i < count($classe) ; $i++){
-    echo "<div><a href='info.php?idx=$i'>".$classe[$i][1]."</a></div>";
+    echo "<div>".$classe[$i][1]." ".$classe[$i][0]."</div>";
 }
+
+
 
